@@ -22,8 +22,8 @@ wheels/
 
 # Virtual Environment
 venv/
-env/
 ENV/
+env/
 
 # IDE
 .idea/
@@ -31,9 +31,36 @@ ENV/
 *.swp
 *.swo
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+
+# Local development settings
+.env
+.env.local
+
 # Project specific
 hf_cache/
-*.log
 *.csv
 
 # Large files and model checkpoints
@@ -41,7 +68,4 @@ hf_cache/
 *.ckpt
 *.arrow
 pix2code_project/results/
-pix2code_project/data/
-
-# Jupyter Notebook
-.ipynb_checkpoints 
+pix2code_project/data/ 

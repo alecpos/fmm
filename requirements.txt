@@ -1,7 +1,11 @@
+numpy==1.24.3
+tensorflow==2.14.0
+tensorflow-addons==0.23.0
+keras-cv==0.8.2
 torch>=2.0.0
+torchvision>=0.15.0
 transformers>=4.30.0
 datasets>=2.12.0
-numpy>=1.24.0
 pandas>=2.0.0
 scikit-learn>=1.2.0
 matplotlib>=3.7.0
@@ -9,4 +13,9 @@ seaborn>=0.12.0
 tqdm>=4.65.0
 pillow>=9.5.0
 opencv-python>=4.7.0
-torch-geometric>=2.3.0 
+torch-geometric>=2.3.0
+protobuf==4.25.7
+typeguard==2.13.3
+ml-dtypes==0.2.0
+pathlib>=1.0.1
+uuid>=1.30 
