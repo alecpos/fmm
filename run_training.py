@@ -13,7 +13,7 @@ from torch.utils.data import DataLoader
 import logging
 
 # Add the project root to Python path
-project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+project_root = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, project_root)  # Insert at beginning to ensure our modules are found first
 
 # Now import our modules
