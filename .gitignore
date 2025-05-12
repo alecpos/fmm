@@ -36,5 +36,12 @@ hf_cache/
 *.log
 *.csv
 
+# Large files and model checkpoints
+*.pt
+*.ckpt
+*.arrow
+pix2code_project/results/
+pix2code_project/data/
+
 # Jupyter Notebook
 .ipynb_checkpoints 
