@@ -2,8 +2,8 @@ numpy==1.23.5
 tensorflow==2.13.0
 tensorflow-addons==0.20.0
 keras-cv==0.8.2
-torch==2.0.0
-torchvision==0.15.0
+torch>=2.0.0
+torchvision>=0.15.0
 transformers==4.30.0
 datasets==2.12.0
 pandas==2.0.0
